@@ -30,3 +30,48 @@
     filter: grayscale(0);
     width: 250px;
  }
+
+ #contanier2{ 
+    border: 2px solid red;
+    height: 500px;
+ }
+
+ #book{
+    width: 150px;
+    margin-top: 250px;
+    animation: movbook 2s ease forwards;
+    position: absolute;
+    
+ }
+
+ @keyframes movbook{
+    from{ 
+        margin-top: 300px;
+        
+    }
+    to{
+        margin-top:0px;
+        rotate: 360deg;
+
+    }
+ }
+
+ #calc{ 
+    width: 150px;
+    margin-left: 130px;
+    margin-top: 250px;
+    animation: movcalc 2s ease forwards;
+    position: absolute;
+ }
+
+ @keyframes movcalc{
+    from{ 
+        margin-top: 300px;
+        
+    }
+    to{
+        margin-top: 0px;
+        rotate: 360deg;
+
+    }
+ }
